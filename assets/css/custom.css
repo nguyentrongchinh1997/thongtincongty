@@ -1,0 +1,69 @@
+#key-word-search-category input {
+    outline: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 15px;
+    border: 1px solid #f0f0f0;
+}
+.main-search-input{
+	margin-bottom: 30px;
+}
+hr{
+	margin-top: 0px;
+	margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #7596c8;
+}
+#key-word-search-category{
+	position: relative;
+}
+.button-search-category{
+	position: absolute;
+	right: 0px;
+	padding: 0px 20px;
+	color: #fff;
+	font-size: 18px;
+	height: 50px;
+	background: #7596c8;
+	width: auto;
+	border: 0px;
+	outline: none;
+}
+.company-info .row{
+	margin: 0px;
+	border-bottom: 1px dotted #ccc;
+}
+.company-info .row [class*="col-"] {
+	padding: 5px 0px;
+}
+.sidebarTitle-detail{
+	/*box-shadow: 0 4px 10px rgba(0,0,0,0.09);*/
+	padding: 10px 20px;
+}
+/*.sidebarTitle{
+	box-shadow: 0 4px 10px rgba(0,0,0,0.09);
+}*/
+.sidebarTitle h3{
+	margin: 0px 0px;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: 20px;
+    bottom: 20px;
+    background: #7596c8;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+.back-to-top i {
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+.menu-toggle i{
+	color: #7596c8;
+	font-size: 35px;
+}

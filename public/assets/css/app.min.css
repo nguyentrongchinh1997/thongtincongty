@@ -1,0 +1,87 @@
+.sim-page .description h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.sim-page .description .quote {
+  background: #eeeeee;
+  border-radius: 5px;
+  padding: 10px;
+}
+.sim-page .description ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.sim-page .description ul li {
+  line-height: 1.5;
+}
+.sim-page .description ul.list-sim {
+  list-style: none;
+  margin: 0;
+}
+.sim-page .description ul.list-sim li {
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.sim-page .description ul.list-sim li .sim {
+  font-weight: bold;
+  display: inline-block;
+  width: 106px;
+  text-align: center;
+  font-size: 16px;
+  color: #006400;
+}
+.sim-page .description ul.list-sim li button {
+  background: #3f372c;
+  color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  font-size: 12px;
+}
+.sim-page .description ul.list-sim li:hover .sim {
+  color: #da4047;
+}
+.sim-page .description ul.list-sim li:hover button {
+  color: #fff900;
+}
+.sim-page .description ul.list-sim.list-beautiful-sim li {
+  padding: 0;
+  background: #ffffff;
+  border: 2px solid #1C9DD9;
+}
+.sim-page .description ul.list-sim.list-beautiful-sim li .sim,
+.sim-page .description ul.list-sim.list-beautiful-sim li button,
+.sim-page .description ul.list-sim.list-beautiful-sim li .price {
+  display: block;
+}
+.sim-page .description ul.list-sim.list-beautiful-sim li .sim {
+  padding: 5px 10px 0;
+  width: auto;
+  color: #390;
+  font-size: 20px;
+}
+.sim-page .description ul.list-sim.list-beautiful-sim li .price {
+  padding-bottom: 5px;
+  color: red;
+  font-size: 16px;
+}
+.sim-page .description ul.list-sim.list-beautiful-sim li button {
+  padding: 5px;
+  background-color: #1C9DD9;
+  width: 100%;
+  border: none;
+  border-radius: 0 0 5px 5px;
+}
+.sim-page .description ul.list-sim.list-beautiful-sim li button a {
+  color: #ffffff !important;
+}
+.sim-page .description ul.list-sim.list-beautiful-sim li:hover {
+  border-color: red;
+}
+.order-sim-btn {
+  background-color: #12a895 !important;
+}
